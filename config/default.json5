@@ -1,0 +1,35 @@
+{
+
+    // Configuration for lib/youtubeClient.js
+    Youtube: {
+        ClientOptions: {
+            maxResults: 3,
+            type: 'video',
+            // Youtube data api v3 key
+            key: ''
+        },
+        dlDirectory: '../movie/'
+    },
+
+    // Configuration for lib/empathClient.js
+    Empath: {
+        endPoint: 'https://api.webempath.net/v2/analyzeWav',
+        apiKey: ''
+
+    },
+
+    // Configuration for ffmpeg in lib/cmd.js
+    Ffmpeg: {
+        Path: '',
+        outDirectory: '../out',
+        Options: {
+            audioFrequency: 11025,
+            audioChannels: 1,
+            segmentTime: 4.9
+        }
+    },
+
+    // Empath api restriction
+    Restriction: true
+
+}
