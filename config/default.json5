@@ -25,6 +25,9 @@
         Options: {
             audioFrequency: 11025,
             audioChannels: 1,
+            highpass: 450,
+            lowpass: 2500,
+            volume: 10.5,
             segmentTime: 4.9
         }
     },
