@@ -20,6 +20,7 @@
     "log-update": "^2.2.0",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
+    "wav-file-info": "0.0.8",
     "youtube-search": "^1.0.10",
     "ytdl-core": "^0.18.1"
   }
